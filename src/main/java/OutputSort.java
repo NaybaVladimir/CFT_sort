@@ -51,7 +51,6 @@ public class OutputSort {
                 write.println(el);
             write.close();
         } catch (FileNotFoundException e) {
-            /*Как обработать исключение?*/
             System.out.println("Файл" + outFile + "отсутствует");
         }
 if (!(write==null))
