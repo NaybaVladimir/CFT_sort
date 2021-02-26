@@ -19,7 +19,7 @@ public class Input {
                 while (sc.hasNext())
                     values.add(sc.next());
             } catch (FileNotFoundException e) {
-                /*Как обработать исключение?*/
+
                 System.out.println("Файл" + el + "отсутствует");
 
             }
